@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 :root{
     --text-dark:#C16CF1;
     --text-light:#693a85;
     --bg-light:#E2DFDF;
     --bg-dark:#201D1D;
+    --corner:.5rem;
 }
 /* --bg-dark:#363031; */
 /* --bg-light:#B8C2CC; */
-*{ 
+*{  
+    font-family: 'Poppins', sans-serif;
     margin:0;
     padding:0;
+    box-sizing: border-box;
+    color:var(--text-light);
 }
 
 body{
@@ -18,15 +24,15 @@ body{
 .header{
     background-color: var(--bg-dark);
     display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    color: var(--text-dark);
+    flex-flow:row wrap;
     align-items:center;
+    justify-content: center;
 }
 
 .main-heading{
     /* margin-left:auto; */
-    font-weight: 400;
+    color:var(--text-dark);
+    font-weight: 700;
     font-size: 2rem;  
     padding: 1rem 2rem;  
 }
@@ -34,14 +40,14 @@ body{
 .side-heading{
     margin-left:auto;
     font-size: 1.5rem;
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
+    color:var(--text-dark);
 }
 
 .main-content{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height:calc(100vh-4rem);
     padding: 1rem 1rem;  
     word-wrap: normal;
     align-items: center;
@@ -52,12 +58,11 @@ body{
 
 .description{
     display: flex;
-    /* color:#5d58b8; */
+    color:black;
     line-height:2.2rem;
     flex-direction: column;
     margin-top:3rem;
     font-size: 1.6rem;
-    
     width:40%;    /* should not in mobile */
 }
 
@@ -81,7 +86,7 @@ body{
     padding: 0.5rem 1rem;
     max-width:fit-content;
     border: var(--bg-dark) solid 2px;
-    border-radius: 5px;
+    border-radius: var(--corner);
 }
 
 .start-btn{
@@ -94,18 +99,19 @@ body{
     color:var(--text-light);
 }
 
+
+.start-btn:hover, .view-btn:hover{
+    transform:scale(1.1,1.1) ;
+    transition: 250ms;
+}
 .start-btn:hover{
     background-color: var(--bg-light);
     /* opacity:80%; */
-    scale:1.1;
-    transition: 250ms;
     color:var(--text-light);
 }
 
 .view-btn:hover{
     background-color: var(--bg-dark);
-    scale:1.1;
-    transition: 250ms;
     color:var(--text-dark);
 }
 
@@ -118,3 +124,4 @@ a{
     width: 20rem;
     height: 20rem;
 }
+
