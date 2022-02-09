@@ -1,0 +1,7 @@
+@import url("./main.css");
+@import url("./sideNav.css");
+@import url("./component.css");
+
+/* All components css below */
+@import url("../components/avatar/avatar.css");
+@import url("../components/alert/alert.css");

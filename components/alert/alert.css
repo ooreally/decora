@@ -1,11 +1,5 @@
-.comp-flex>.comp-display{
-    flex-direction:column;
-    align-items: flex-start;
-    
-}
-
-.comp-flex{
-    margin: 0rem auto;    
+.alert-display{
+    margin: 2rem auto 0rem;    
 }
 
 .alert{
@@ -21,23 +15,30 @@ i {
     margin-right: 0.5rem;
 }
 
+.red{
+    color:rgb(199, 35, 35)
+}
+
+.golden{
+    color: darkgoldenrod;
+}
+
+.green{
+    color:green;
+}
+
 .primary{
     background-color: #e1adff;
 }
+
 .success{
-    color: green;
-    border-color:green;
     background-color: rgb(175, 233, 175);
 }
 
 .error{
-    color: rgb(199, 35, 35);
-    border-color: rgb(199, 35, 35);  
     background-color: rgb(253, 182, 182);
 }
 
 .warning{
-    color: darkgoldenrod;
-    border-color:darkgoldenrod;
     background-color: rgb(255, 230, 167);
 }

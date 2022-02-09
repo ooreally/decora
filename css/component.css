@@ -17,15 +17,21 @@
     color: black;
 }
 
-.comp-flex, .comp-code-display{
+.comp-flex{
     display:flex;
     justify-content:center;
-    margin-top:2rem;
+    margin-top:1rem;
 }
 
 .divider{
     margin-top: 1rem;
     border: 2px dashed;
+}
+
+.underline{
+    text-decoration:underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 0.2rem;
 }
 
 .comp-display{
@@ -37,6 +43,8 @@
 }
 
 .comp-code-display{
-    background-color: unset ;
+    display:flex;
+    justify-content:center;
+    margin-top:2rem;
 }
 

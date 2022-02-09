@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --text-dark:#C16CF1;
+    --text-light:#693a85;
+    --bg-light:#E2DFDF;
+    --bg-dark:#201D1D;
+    --corner:.5rem;
+    --heading-size: 2rem;
+    --text-size: 1.2rem;
+}
+/* --bg-dark:#363031; */
+/* --bg-light:#B8C2CC; */
+*{  
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:var(--text-light);
+}
+
+body{
+    background-color: var(--bg-light);
+}
+
+.header{
+    background-color: var(--bg-dark);
+    display:flex;
+    flex-flow:row wrap;
+    align-items:center;
+    justify-content: center;
+}
+
+.main-heading{
+    /* margin-left:auto; */
+    color:var(--text-dark);
+    font-weight: 700;
+    font-size: var(--heading-size);  
+    padding: 1rem 2rem;  
+}
+
+.side-heading{
+    margin-left:auto;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    color:var(--text-dark);
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem 1rem;  
+    word-wrap: normal;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    column-gap: 3rem;
+}
+
+.description{
+    display: flex;
+    color:black;
+    line-height:2.2rem;
+    flex-direction: column;
+    margin-top:3rem;
+    font-size: 1.6rem;
+    width:40%;    /* should not in mobile */
+}
+
+.description-head{
+    margin-bottom: 1rem;
+    font-size: var(--heading-size);
+    color:var(--text-light);
+    font-weight:600;
+}
+
+.btns {
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-top:1.5rem;
+    display: flex;
+    column-gap: 3rem;
+}
+
+.start-btn,.view-btn{ 
+    font-size: var(--text-size);
+    padding: 0.5rem 1rem;
+    max-width:fit-content;
+    border: var(--bg-dark) solid 2px;
+    border-radius: var(--corner);
+}
+
+.start-btn{
+    background-color: var(--bg-dark);
+    color:var(--text-dark);
+}
+
+.view-btn{
+    background-color: var(--bg-light);
+    color:var(--text-light);
+}
+
+
+.start-btn:hover, .view-btn:hover{
+    transform:scale(1.1,1.1) ;
+    transition: 250ms;
+}
+.start-btn:hover{
+    background-color: var(--bg-light);
+    /* opacity:80%; */
+    color:var(--text-light);
+}
+
+.view-btn:hover{
+    background-color: var(--bg-dark);
+    color:var(--text-dark);
+}
+
+a{
+    text-decoration: none;  
+}
+
+.hero-img{
+    /* margin-top:1rem; */
+    width: 20rem;
+    height: 20rem;
+}
+
