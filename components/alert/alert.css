@@ -16,29 +16,29 @@ i {
 }
 
 .red{
-    color:rgb(199, 35, 35)
+    color:var(--text-red);
 }
 
 .golden{
-    color: darkgoldenrod;
+    color: var(--golden-color);
 }
 
 .green{
-    color:green;
+    color:var(--greencolor);
 }
 
 .primary{
-    background-color: #e1adff;
+    background-color: var(--bg-violet);
 }
 
 .success{
-    background-color: rgb(175, 233, 175);
+    background-color: var(--bg-green);
 }
 
 .error{
-    background-color: rgb(253, 182, 182);
+    background-color: var(--bg-red);
 }
 
 .warning{
-    background-color: rgb(255, 230, 167);
+    background-color: var(--bg-golden);
 }

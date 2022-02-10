@@ -3,6 +3,18 @@
 :root{
     --text-dark:#C16CF1;
     --text-light:#693a85;
+    --text-red:rgb(199, 35, 35);
+    --red-color:red;
+    --orange-color:orangered;
+    --green-color:green;
+    --golden-color:darkgoldenrod;
+    --gray-color:gray;
+    --white-color:white;
+    --black-color:black;
+    --bg-violet:#e1adff;
+    --bg-green:rgb(175, 233, 175);
+    --bg-red:rgb(253, 182, 182);
+    --bg-golden:rgb(255, 230, 167);
     --bg-light:#E2DFDF;
     --bg-dark:#201D1D;
     --corner:.5rem;
@@ -127,3 +139,7 @@ a{
     height: 20rem;
 }
 
+.gutter{
+    height: 2rem;
+    width: 100%;
+}
