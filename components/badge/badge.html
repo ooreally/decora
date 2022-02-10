@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decora</title>
+    <link rel="stylesheet" href="../../css/all.css">
+    <script src="https://kit.fontawesome.com/7966d641ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="header">
+            <a href="../../index.html" class="main-heading">
+                Decora
+            </a>
+            <div class="side-heading">
+                Docs
+            </div>
+        </nav>
+        <div class="contents">
+            <nav class="side-nav">
+                <ul>
+                    <li class="item">
+                        <a href="../avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li class="item">
+                        <a href="../alert/alert.html">Alert</a>
+                    </li>
+                    <li class="item">
+                        <a class="active" href="./badge.html">Badge</a>
+                    </li>
+                    <li class="item">
+                        <a href="../button/button.html">Button</a>
+                    </li>
+                    <li class="item">
+                        <a href="../card/card.html">Card</a>
+                    </li>
+                    <li class="item">
+                        <a href="../image/image.html">Image</a>
+                    </li>
+                    <li class="item">
+                        <a href="../input/input.html">Input</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="main-component">
+                <h1 class="comp-heading">Badge</h1>
+                <hr>
+                <p class="comp-desc">
+                    A badge or a tag is a counter shown on icons like cart, notification and avatars. It is also used to show online and offline status of a person. 
+                    <br>
+                    <br>
+                </p>
+                <h2 class="comp-headng underline">Badge on icon</h2>
+                <div class="comp-flex">
+                <div class="comp-display">
+                    <div class="badge-wrap">
+                        <i class="fa-light fa-envelope med"></i>
+                        <div class="badge icon bg-red"> 2 </div>
+                    </div>
+                
+                    <div class="badge-wrap">
+                        <i class="fa-regular fa-comment-dots med"></i>
+                        <div class="badge icon bg-orange"> 5 </div>
+                    </div>
+
+                    <div class="badge-wrap">
+                        <i class="fa-solid fa-cart-shopping med"></i>
+                        <div class="badge icon bg-green"> 3 </div>
+                    </div>
+                </div>
+                </div>
+                <div class="comp-code-display">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28193%2C108%2C241%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%253Ci%2520class%253D%2522fa-light%2520fa-envelope%2520med%2522%253E%253C%252Fi%253E%253Cdiv%2520class%253D%2522badge%2520icon%2520bg-red%2522%253E%25202%2520%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%253Ci%2520class%253D%2522fa-regular%2520fa-comment-dots%2520med%2522%253E%253C%252Fi%253E%253Cdiv%2520class%253D%2522badge%2520icon%2520bg-orange%2522%253E%25205%2520%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-cart-shopping%2520med%2522%253E%253C%252Fi%253E%253Cdiv%2520class%253D%2522badge%2520icon%2520bg-green%2522%253E%25203%2520%253C%252Fdiv%253C%252Fdiv%253E"
+                        style="width: 100%; height: 21rem; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+
+                </div>
+                <hr class="divider">
+                <div class="gutter"></div>
+                <h2 class="comp-headng underline">Badge on avatar</h2>
+                <div class="comp-flex">
+                <div class="comp-display">
+                    <div class="badge-wrap">
+                        <img class="avatar medium" src="../../assets/profile.jpeg" alt="profile L">
+                        <div class="badge av pos-med bg-red"></div>
+                    </div>
+                
+                    <div class="badge-wrap">
+                        <img class="avatar small" src="../../assets/mydog.jpeg" alt="courage M">
+                        <div class="badge av pos-small bg-green"></div>
+                    </div>
+
+                    <div class="badge-wrap">
+                        <img class="avatar xsmall" src="../../assets/profile.jpeg" alt="profile S">
+                        <div class="badge av pos-xsmall bg-gray"></div>
+                    </div>
+                </div>
+                </div>
+                <div class="comp-code-display">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28193%2C108%2C241%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%2520%253Cimg%2520class%253D%2522avatar%2520medium%2522%2520src%253D%2522..%252F..%252Fassets%252Fprofile.jpeg%2522%2520alt%253D%2522profile%2520L%2522%253E%250A%253Cdiv%2520class%253D%2522badge%2520av%2520pos-med%2520bg-red%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%253Cimg%2520class%253D%2522avatar%2520small%2522%2520src%253D%2522..%252F..%252Fassets%252Fmydog.jpeg%2522%2520alt%253D%2522courage%2520M%2522%253E%250A%253Cdiv%2520class%253D%2522badge%2520av%2520pos-small%2520bg-green%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-wrap%2522%253E%253Cimg%2520class%253D%2522avatar%2520xsmall%2522%2520src%253D%2522..%252F..%252Fassets%252Fprofile.jpeg%2522%2520alt%253D%2522profile%2520S%2522%253E%250A%253Cdiv%2520class%253D%2522badge%2520av%2520pos-xsmall%2520bg-gray%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 25rem; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
