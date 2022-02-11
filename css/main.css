@@ -19,7 +19,7 @@
     --bg-dark:#201D1D;
     --corner:.5rem;
     --heading-size: 2rem;
-    --text-size: 1.2rem;
+    --text-size: 1.1rem;
 }
 /* --bg-dark:#363031; */
 /* --bg-light:#B8C2CC; */
@@ -72,7 +72,7 @@ body{
 
 .description{
     display: flex;
-    color:black;
+    color:var(--black-color);
     line-height:2.2rem;
     flex-direction: column;
     margin-top:3rem;
@@ -142,4 +142,20 @@ a{
 .gutter{
     height: 2rem;
     width: 100%;
+}
+
+.mr-5{
+    margin-right:0.5rem;
+}
+
+.red{
+    color:var(--text-red);
+}
+
+.golden{
+    color: var(--golden-color);
+}
+
+.green{
+    color:var(--green-color);
 }
