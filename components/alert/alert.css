@@ -11,10 +11,6 @@
     margin-bottom: 0.5rem;
 }
 
-i {
-    margin-right: 0.5rem;
-}
-
 .primary{
     background-color: var(--bg-violet);
 }
