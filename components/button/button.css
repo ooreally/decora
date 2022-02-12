@@ -1,0 +1,101 @@
+button{
+    border:none;
+    background-color: var(--white-color);
+    cursor:pointer; 
+    /* text-decoration: */
+}
+
+.button{
+    padding: 0.5rem 1rem; 
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px var(--bg-dark);
+    font-size: 1rem;
+}
+
+.button:hover {
+    opacity: 90%;
+}
+
+.round{
+    border-radius: var(--corner);
+}
+
+
+.btn-1{
+    color:var(--black-color);
+    background-color: var(--gray-color);
+}
+
+.btn-2-scale{
+    background-color: var(--bg-dark);
+    color:var(--text-dark);
+}
+
+.btn-2-scale:hover{
+    transform: scale(1.1,1.1);
+    transition: 260ms;
+}
+
+.bold{
+    font-weight:bolder;
+}
+.btn-3{
+    background-color: var(--bg-red);
+    color:var(--text-red);
+}
+
+.outlined{
+    border:2px solid var(--text-red);
+}
+.disabled{
+    cursor:not-allowed;
+}
+
+.disabled:hover{
+    opacity: 60%;
+}
+
+.link{
+    color: var(--black-color); 
+    cursor: pointer;
+}
+
+.line{
+    text-decoration: underline;
+}
+
+.icon-btn{
+    border-radius: var(--corner);
+    font-size:1rem;
+    padding: 0.5rem;
+}
+
+.icon-btn:hover{
+    opacity:80%;
+    transform:scale(1.1,1.1);
+}
+
+.cart-btn {
+    background-color: var(--orange-color);
+    color:var(--white-color);
+}
+
+.inbox-btn{
+    border: 2px solid var(--text-red);
+    background-color: var(--bg-red);
+}
+
+.chat-btn{
+    border: 2px solid var(--green-color);
+}
+
+.chat-btn:hover{
+    background-color: var(--bg-green);
+}
+
+.float-btn{
+    font-size: 2.5rem;
+}
+.float-btn:hover {
+    opacity: 80%;
+}

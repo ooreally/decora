@@ -159,3 +159,7 @@ a{
 .green{
     color:var(--green-color);
 }
+
+.white{
+    color:var(--white-color);
+}
