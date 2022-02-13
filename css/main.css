@@ -133,6 +133,10 @@ a{
     text-decoration: none;  
 }
 
+i{
+    cursor:pointer;
+}
+
 .hero-img{
     /* margin-top:1rem; */
     width: 20rem;
