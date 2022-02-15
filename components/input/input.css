@@ -1,0 +1,36 @@
+.text-area{
+    width:14rem;
+    min-height: 5rem;
+    border: 2px solid var(--bg-light);
+    color:var(--bg-dark);
+    box-shadow: none;
+}
+.email-input-div{
+    display:flex;
+    flex-direction: column;
+}
+.email-label{
+    color:var(--black-color);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+    padding:0.5rem;
+}
+
+.email-input{
+    color:var(--bg-dark);
+    width:14rem;
+    padding: 0.5rem;
+    box-shadow: none;
+    border: 2px solid var(--bg-light);
+}
+
+.email-error{
+    color:var(--text-red);
+    font-weight: bolder;
+}
+
+.email-div{
+    display:flex;
+    flex-direction: row;
+}

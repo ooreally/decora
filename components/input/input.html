@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decora</title>
+    <link rel="stylesheet" href="../../css/all.css">
+    <script src="https://kit.fontawesome.com/7966d641ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="header">
+            <a href="../../index.html" class="main-heading">
+                Decora
+            </a>
+            <div class="side-heading">
+                Docs
+            </div>
+        </nav>
+        <div class="contents">
+            <nav class="side-nav">
+                <ul>
+                    <li class="item">
+                        <a href="../avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li class="item">
+                        <a href="../alert/alert.html">Alert</a>
+                    </li>
+                    <li class="item">
+                        <a href="../badge/badge.html">Badge</a>
+                    </li>
+                    <li class="item">
+                        <a href="../button/button.html">Button</a>
+                    </li>
+                    <li class="item">
+                        <a href="../card/card.html">Card</a>
+                    </li>
+                    <li class="item">
+                        <a href="../image/image.html">Image</a>
+                    </li>
+                    <li class="item">
+                        <a class="active" href="./input.html">Input</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="main-component">
+                <h1 class="comp-heading">Input</h1>
+                <hr>
+                <p class="comp-desc">
+                    Inputs are components to take input from the user. They may be given with a label directing user to
+                    give appropriate details.
+                    <br>
+                    <br>
+                </p>
+                <h2 class="comp-headng underline">Textbox</h2>
+                <div class="comp-flex">
+                    <div class="comp-display">
+                        <textarea class="text-area round" type="text" placeholder=" type your text here"></textarea>
+                    </div>
+                </div>
+                <div class="comp-code-display">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.95%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Ctextarea%2520class%253D%2522text-area%2520round%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522%2520type%2520your%2520text%2520here%2522%253E%253C%252Ftextarea%253E"
+                        style="width: 100%; height: 15rem; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <hr class="divider">
+                <div class="gutter"></div>
+                <h2 class="comp-headng underline">Input with validation</h2>
+                <div class="comp-flex">
+                    <div class="comp-display">
+                        <div class="email-div">
+                            <label class="email-label" htmlFor="email-input">Email: </label>
+                            <div class="email-input-div">
+                                <input class="email-input round" placeholder="you@example.com"></input>
+                                <div class="email-error">Invalid email address!</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comp-code-display">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.95%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522comp-display%2522%253E%250A%253Cdiv%2520class%253D%2522email-div%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522email-label%2522%2520htmlFor%253D%2522email-input%2522%253EEmail%253A%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522email-input-div%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522email-input%2520round%2522%2520placeholder%253D%2522you%2540example.com%2522%253E%253C%252Finput%253E%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522email-error%2522%253EInvalid%2520email%2520address%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520%2520%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 24rem; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
