@@ -1,0 +1,28 @@
+.list-item{
+    color:var(--bg-dark);
+    font-weight: bold;    
+}
+
+.alpha-ol{
+    list-style-type: lower-alpha;
+}
+
+.bullet-ul{
+    list-style-type:disc;
+}
+
+.square-ul{
+    list-style-type: square;
+}
+
+.spaced-list{
+    width:100%;
+    list-style:none;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.stacked-list{
+    list-style:none;
+}
+
