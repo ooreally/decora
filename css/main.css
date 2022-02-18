@@ -80,6 +80,10 @@ body{
     width:40%;    /* should not in mobile */
 }
 
+.installation{
+    width:80%;
+}
+
 .description-head{
     margin-bottom: 1rem;
     font-size: var(--heading-size);
