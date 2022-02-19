@@ -35,6 +35,9 @@
     min-width: 160px;
 }
 
+.dropdown-nav-link:hover{
+    transform:scale(1.1,1.1);
+}
 /* .hamburger-dropdown{
     display:flex;
     flex-direction: column;
@@ -46,10 +49,11 @@
     color:var(--text-dark);
 }
 
-@media screen and (max-width: 840px){
+@media screen and (max-width: 860px){
     .nav-bar{
         justify-content: flex-start;
     }
+    
     .nav-sm{
         display:flex;
         width: 100%;
