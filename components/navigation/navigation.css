@@ -46,7 +46,7 @@
     color:var(--text-dark);
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 840px){
     .nav-bar{
         justify-content: flex-start;
     }
