@@ -1,8 +1,3 @@
-.comp-btn{
-    flex-direction: column;
-    row-gap: 1rem;
-}
-
 .btn{
     border:none;
     background-color: var(--white-color);
@@ -103,4 +98,11 @@
 }
 .float-btn:hover {
     opacity: 80%;
+}
+
+@media screen and (max-width:500px) {
+    .comp-btn{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
 }
