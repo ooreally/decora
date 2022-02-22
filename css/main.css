@@ -171,3 +171,79 @@ i{
 .white{
     color:var(--white-color);
 }
+
+/* Header nav for mobile view */
+.nav-dropdown{
+    display:none;
+}
+
+
+.ham-dropdown-content{
+    display: none;
+    flex-direction:column;
+    background-color: var(--bg-dark);
+    position:absolute;
+    z-index: 99;
+    min-width: 160px;
+    height:100vh;
+    top: 5rem;
+    left: 0;
+    transition: transform 2s;
+}
+
+.ham-nav{
+    display: flex;
+    /* margin: 1.2rem 1rem; */
+    padding:0.5rem 1rem 2rem;
+    font-size: 1.5rem;
+    flex-basis: 10rem;
+    background-color: var(--bg-dark)  ;
+    border-radius: 0.5rem;
+   
+    
+}
+
+
+@media screen and (max-width:900px){
+    .description{
+        margin-top: 1rem;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:600px){
+
+    .ham{
+        display: block;
+        position:relative;
+    }
+    
+    .description{
+        margin-top: 1rem;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .btns{
+        flex-direction:column;
+        width:100%;
+        justify-content: space-around;
+    }
+
+    .start-btn,.view-btn{
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+    .nav-dropdown{
+        display: block;
+    }
+    .main-heading{
+        /* font-size: 1.8rem; */
+        padding: 1rem 0.5rem;
+    }
+
+    .side-heading{
+        padding: 1rem 0.5rem;
+    }
+}
