@@ -28,7 +28,7 @@
 
 .hamburger-dropdown-content{
     display: none;
-    /* width:fit-content; */
+    flex-direction: column;
     background-color: var(--bg-dark);
     position:absolute;
     z-index: 99;
@@ -71,11 +71,11 @@
         justify-content: center;
     }
 
-    .hamburger-dropdown:hover .hamburger-dropdown-content{
+    /* .hamburger-dropdown:hover .hamburger-dropdown-content{
         display: flex;
         flex-direction:column;
         
-    }
+    } */
 
     
 }
