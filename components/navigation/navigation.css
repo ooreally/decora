@@ -65,17 +65,11 @@
     
     .hamburger{
         display:flex;
-        /* flex-direction:column; */
         position:relative;
         align-items: center;
         justify-content: center;
     }
 
-    /* .hamburger-dropdown:hover .hamburger-dropdown-content{
-        display: flex;
-        flex-direction:column;
-        
-    } */
 
     
 }
