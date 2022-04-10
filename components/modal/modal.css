@@ -19,8 +19,6 @@
 }
 
 .question-buttons{ 
-    /* display: flex; */
-    /* font-size: 0.2rem; */
     justify-content: space-between;
 }
 
