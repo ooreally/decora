@@ -22,4 +22,16 @@ const navHamClicked = () => {
     navHamContent.style.display = "flex";
 }
 
+if(navHamburger)
 navHamburger.addEventListener("click", navHamClicked );
+
+// js code for slider
+const sliderValue = document.querySelector("#slider-value");
+const sliderInput = document.querySelector("#slider-input");
+
+const sliderChanged = () => {
+    sliderValue.innerText = sliderInput.value
+}
+
+if(sliderInput)
+sliderInput.addEventListener("change",sliderChanged)
