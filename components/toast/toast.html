@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anupam Srivastava">
+    <title>Decora</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <script src="https://kit.fontawesome.com/7966d641ca.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <div class="container">
+        <nav class="header">
+            <div class="nav-dropdown">
+                <div class="ham" id="head-ham"> <i class="fa-solid fa-bars med-ham "></i></div>
+                <div class="ham-dropdown-content" id="head-ham-content">
+                    <nav class="ham-nav">
+                        <ul >
+                            <li class="item">
+                                <a href="../avatar/avatar.html">Avatar</a>
+                            </li>
+                            <li class="item">
+                                <a href="../alert/alert.html">Alert</a>
+                            </li>
+                            <li class="item">
+                                <a href="../badge/badge.html">Badge</a>
+                            </li>
+                            <li class="item">
+                                <a href="../button/button.html">Button</a>
+                            </li>
+                            <li class="item">
+                                <a href="../card/card.html">Card</a>
+                            </li>
+                            <li class="item">
+                                <a href="../image/image.html">Image</a>
+                            </li>
+                            <li class="item">
+                                <a href="../input/input.html">Input</a>
+                            </li>
+                            <li class="item">
+                                <a href="../text/text-util.html">Text Utils</a>
+                            </li>
+                            <li class="item">
+                                <a href="../list/list.html">List</a>
+                            </li>
+                            <li class="item">
+                                <a href="../navigation/navigation.html">Navigation</a>
+                            </li>
+                            <li class="item">
+                                <a class="active" href="./toast.html">Toast</a>
+                            </li>
+                            <li class="item">
+                                <a href="../modal/modal.html">Modal</a>
+                            </li>
+                            <li class="item">
+                                <a href="../rating/rating.html">Rating</a>
+                            </li>
+                            <li class="item">
+                                <a href="../grid/grid.html">Grid</a>
+                            </li>
+                            <li class="item">
+                                <a href="../slider/slider.html">Slider</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <a href="../../index.html" class="main-heading">
+                Decora
+            </a>
+            <a href="../../installation.html" class="side-heading">
+                Install
+            </a>
+        </nav>
+        <div class="contents">
+            <nav class="side-nav">
+                <ul>
+                    <li class="item">
+                        <a href="../avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li class="item">
+                        <a href="../alert/alert.html">Alert</a>
+                    </li>
+                    <li class="item">
+                        <a href="../badge/badge.html">Badge</a>
+                    </li>
+                    <li class="item">
+                        <a href="../button/button.html">Button</a>
+                    </li>
+                    <li class="item">
+                        <a href="../card/card.html">Card</a>
+                    </li>
+                    <li class="item">
+                        <a href="../image/image.html">Image</a>
+                    </li>
+                    <li class="item">
+                        <a href="../input/input.html">Input</a>
+                    </li>
+                    <li class="item">
+                        <a href="../text/text-util.html">Text Utils</a>
+                    </li>
+                    <li class="item">
+                        <a href="../list/list.html">List</a>
+                    </li>
+                    <li class="item">
+                        <a href="../navigation/navigation.html">Navigation</a>
+                    </li>
+                    <li class="item">
+                        <a class="active" href="./toast.html">Toast</a>
+                    </li>
+                    <li class="item">
+                        <a href="../modal/modal.html">Modal</a>
+                    </li>
+                    <li class="item">
+                        <a href="../rating/rating.html">Rating</a>
+                    </li>
+                    <li class="item">
+                        <a href="../grid/grid.html">Grid</a>
+                    </li>
+                    <li class="item">
+                        <a href="../slider/slider.html">Slider</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="main-component">
+                <h1 class="comp-heading">Toast/Snackbar</h1>
+                <hr>
+                <p class="comp-desc">
+                    Toast message or snackbar is used to give some feedback to the user. It is
+                    only shown for a couple of seconds like notification when a user clicks on something or submits a form etc.
+                    <br>
+                    <br>
+                </p>
+                
+                <div class="comp-flex">
+                    <div class="comp-display">
+                        <button id="see-toast-btn" class="btn pri-btn btn-2-scale round">
+                            See toast
+                        </button>
+                    </div>
+                </div>
+                <button id="toast" class="bottom-toast round">
+                        This toast goes off after 5 sec.&nbsp;&nbsp;&nbsp; <i id="close-toast-btn" class="fa-solid fa-circle-xmark"></i>
+                </button>
+                <div class="code-heading underline">HTML Code</div>
+                <div class="comp-code-display">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520id%253D%2522toast%2522%2520class%253D%2522bottom-toast%2520round%2522%253E%250AThis%2520toast%2520goes%2520off%2520after%25205%2520sec.%2526nbsp%253B%2526nbsp%253B%2526nbsp%253B%2520%253Ci%2520id%253D%2522close-toast-btn%2522%2520class%253D%2522fa-solid%2520fa-circle-xmark%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520id%253D%2522toast%2522%2520class%253D%2522bottom-toast%2520round%2522%253E%250AThis%2520toast%2520goes%2520off%2520after%25205%2520sec.%2526nbsp%253B%2526nbsp%253B%2526nbsp%253B%2520%253Ci%2520id%253D%2522close-toast-btn%2522%2520class%253D%2522fa-solid%2520fa-circle-xmark%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+                    style="width: 100%; height: 23rem; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="code-heading underline">JS Code</div>
+                <div class="comp-code-display">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=javascript&width=699&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520toastBtn%2520%253D%2520document.querySelector%28%2522%2523see-toast-btn%2522%29%253B%250Aconst%2520toast%2520%253D%2520document.querySelector%28%2522%2523toast%2522%29%253B%250Aconst%2520closeToast%2520%253D%2520document.querySelector%28%2522%2523close-toast-btn%2522%29%253B%250Aconst%2520toastClickedHandler%2520%253D%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520toast.style.visibility%2520%253D%2520%2522visible%2522%253B%250A%2520%2520tim%2520%253D%2520setTimeout%28%28%29%2520%253D%253E%2520%28toast.style.visibility%2520%253D%2520%2522hidden%2522%29%252C%25205000%29%253B%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%257D%253B%2520%250A%250Aconst%2520closeToastClickedHandler%2520%253D%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520toast.style.visibility%253D%2522hidden%2522%253B%250A%2520%2520%2520%2520clearTimeout%28tim%29%253B%250A%257D%250AtoastBtn.addEventListener%28%2522click%2522%252C%2520toastClickedHandler%29%253B%250AcloseToast.addEventListener%28%2522click%2522%252C%2520closeToastClickedHandler%29%253B%2520%2520%2520"
+                        style="width: 100%; height: 32rem; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../index.js"></script>   
+</body>
+
+</html>
