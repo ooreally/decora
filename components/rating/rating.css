@@ -1,0 +1,22 @@
+.stars {
+  display: flex;
+  flex-direction: row-reverse;
+}
+input.star {
+  display: none;
+}
+
+label.star {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+label.star:before {
+  content: "\f006";
+  font-family: FontAwesome;
+}
+
+input.star:checked ~ label.star:before {
+  content: "\f005";
+  color: var(--green-color);
+}
