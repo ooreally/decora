@@ -1,0 +1,34 @@
+.modal{
+    position: fixed;
+    z-index: 99;
+    max-width: 20rem;
+    align-self: center;
+    visibility: hidden;
+    background-color: var(--bg-light);
+    color:var(--text-light);
+    padding: 0.5rem 0.5rem;
+    border: var(--bg-dark) solid 2px;
+    box-shadow: 5px 5px 10px 5px var(--gray-color);
+}
+
+.modal-question{ 
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.question-buttons{ 
+    justify-content: space-between;
+}
+
+#close-modal-btn{
+    position: absolute;
+    top: 0.1rem;
+    right: 0.2rem;
+    font-size: 1rem;
+}
+
+.code-heading{
+    font-size: 1.2rem;
+}

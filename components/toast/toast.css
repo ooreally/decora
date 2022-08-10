@@ -1,0 +1,22 @@
+.bottom-toast{
+    position: fixed;
+    z-index: 99;
+    bottom: 2rem;
+    align-self: center;
+    visibility: hidden;
+    background-color: var(--bg-light);
+    color:var(--text-light);
+    padding: 0.5rem 0.5rem;
+    border: var(--bg-dark) solid 2px;
+}
+
+#close-toast-btn{
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+    font-size: 1rem;
+}
+
+.code-heading{
+    font-size: 1.2rem;
+}
