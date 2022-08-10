@@ -25,6 +25,18 @@ const navHamClicked = () => {
 if(navHamburger)
 navHamburger.addEventListener("click", navHamClicked );
 
+
+// js code for slider
+const sliderValue = document.querySelector("#slider-value");
+const sliderInput = document.querySelector("#slider-input");
+
+const sliderChanged = () => {
+    sliderValue.innerText = sliderInput.value
+}
+
+if(sliderInput)
+sliderInput.addEventListener("change",sliderChanged)
+
 // js code for Toast component
 const toastBtn = document.querySelector("#see-toast-btn");
 const toast = document.querySelector("#toast");
@@ -64,3 +76,4 @@ modalBtn.addEventListener("click", modalClickedHandler);
 
 if(closemodal)
 closemodal.addEventListener("click", closeModalClickedHandler);
+
